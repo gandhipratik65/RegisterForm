@@ -1,0 +1,81 @@
+/* styles.css */
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    background-color: #30974a;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+  }
+
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .form-field label {
+    margin-bottom: 5px;
+  }
+  
+  .form-field input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .dashboard-container {
+    background-color: rgb(44, 114, 44);
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .dashboard-nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+  }
+  
+  .dashboard-nav li {
+    margin-right: 20px;
+  }
+  
+  .dashboard-nav a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  
+  .dashboard-nav a:hover {
+    text-decoration: underline;
+  }
+
+  .dashboard-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* InsuranceForm.css */
+.section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Similarly, create CSS files for other sections */
